@@ -1,11 +1,12 @@
 import { Gallery } from "./Gallery"
+import HeaderComponent from "./HeaderComponent"
 import "./styles.css"
 
 function App() {
  
   return (
     <>
-      <h1>High Moral International School </h1>
+      <HeaderComponent/>
       <Gallery />
     </>
   )
